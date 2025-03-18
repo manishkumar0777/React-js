@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+.header {
+  display: flex;
+  align-items : center;
+  justify-content : space-between;
+  position: fixed;
+  top : 0;
+  left : 0;
+  width: 100%;
+  background-color: brown;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list-item {
+  margin-right : 30px;
+  font-size : 1.6rem;
+}
+
+.logo {
+  width : 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+.footer {
+  bottom : 0;
+  left: 0;
+  height : 30px;
+  width : 100%;
+  position: fixed;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: aliceblue;
+}
