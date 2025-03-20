@@ -1,13 +1,18 @@
 
+import reactLogo from '../assets/react.svg';
+
 export default function Main() {
     return (
-      <div>
-      <h1>Reason I am excited to learn React</h1>
-      <ol>
-          <li>React is a popular library, so I will be able to fit in with all the coolest devs out there! 😎</li>
-          <li>I am more likely to get a job as a front end developer if I know React</li>
-      </ol>
-     </div>
+      <main>
+      <h1>Reason to learn React</h1>
+        <ul className='facts-list'>
+          <li>React is a popular library,</li>
+          <li>front end developer if I know React</li>
+          <li>is Maintained By Meta</li>
+          <li>Has well over 200k stars on github</li>
+          <li>was First released in 2013</li>
+        </ul>
+     </main>
   
     )
   }

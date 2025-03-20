@@ -2,9 +2,10 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  color: white;
   min-height: 100vh;
+  background-color: rgb(37, 37, 37);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -16,18 +17,18 @@ body {
   top : 0;
   left : 0;
   width: 100%;
-  background-color: brown;
+  background-color: rgb(2, 17, 2);
 }
 
-.nav-list {
-  list-style: none;
+nav {
   display: flex;
-  flex-direction: row;
+  align-items: center;
 }
 
-.nav-list-item {
-  margin-right : 30px;
-  font-size : 1.6rem;
+nav > span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: aqua;
 }
 
 .logo {
@@ -50,4 +51,42 @@ body {
 
 .copyright {
   color: aliceblue;
+}
+
+.main-logo {
+  right: -50px;
+  height: 100px;
+  width: 100px;
+}
+
+.list-logo {
+  width: 120%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+main {
+  padding: 60px 30px;
+}
+
+main > h1 {
+  margin: 0;
+  font-size: 2.3rem;
+}
+
+.facts-list {
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.facts-list > li {
+   padding-block: 10px;
+   line-height: 18px;
+   text-align: left;
+}
+
+.facts-list > li::marker {
+  color: aqua;
+  font-size: 1.7rem;
 }

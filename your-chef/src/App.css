@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #FAFAF8;
+}
+
+
+.header {
+  top: 0;
+  display: flex;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  height: 80px;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chef-icon {
+  margin-top: 0px;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.chef-name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+main {
+  padding: 10px 30px;
+}
+
+.add-ingredient-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  height: 38px;
+  margin-top: 60px;
+}
+
+.add-ingredient-form > input {
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+  padding: 9px 13px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+}
+
+.add-ingredient-form > button {
+  background-color: black;
+  border-radius: 6px;
+  padding: 9px 13px;
+  color: #FAFAF8;
+  font-family: Inter, sans-serif;
+  font-weight: 500px;
+  font-size: 13px;
+
+}
