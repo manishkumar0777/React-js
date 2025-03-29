@@ -1,13 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React, { useState } from 'react'
+
 import './App.css'
+import WindowLength from './components/widowLenght'
+
 
 
 function App() {
 
+  const [show, setShow] = useState(true);
+
+  function toggleShow () {
+    setShow(prev => !prev)
+  }
+
+  console.log(show);
   return (
-    <Header />
+    <>
+    <button onClick={toggleShow}>toggleShow</button>
+    {show && <WindowLength />}
+    </>
   )
 }
 
