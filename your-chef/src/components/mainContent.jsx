@@ -4,6 +4,8 @@ import React, {useState, useRef} from "react";
 //components
 import IngredientList from "./ingredientList";
 import Chef from "./chef";
+
+//functon import from the aicehf.js
 import getRecipefromMistral from '../aichef';
 
 

@@ -1,0 +1,182 @@
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      margin: 0;
+      font-family: Inter, sans-serif;
+      background-color: #FAFAF8;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .auth-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .toggle-btns {
+    position: relative;
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .toggle-option {
+    flex: 1;
+    text-align: center;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 2;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .toggle-option.active {
+    color: #333;
+  }
+  
+  .slider {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  
+  .slider.right {
+    transform: translateX(100%);
+  }
+
+  .login-container {
+    height: 700px;
+    background-color: rgb(228, 228, 228);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left : 0;
+    top : 0;
+  }
+
+  .login-card {
+    background-color: white;
+    margin : 15px;
+    width: 370px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+    padding : 20px;
+
+  }
+
+  .app-name {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    color: #5e657c;
+  }
+
+  .welcome {
+    font-size: 1rem;
+    margin-bottom: 3px;
+    color: #5e657c;
+  }
+
+  .instruction {
+    font-size: 0.8rem;
+    margin-bottom: 7px;
+    color: #9195a3;
+  }
+
+  .input-box {
+    width: 90%;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+  }
+
+
+
+  .rem-fog {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+
+  .rem-me {
+    font-size: 0.8rem;
+    margin-left: 3px;
+
+  }
+
+  .forgot-password {
+    font-size: 0.8rem;
+    color: #6e8efb;
+  }
+
+.login-button{
+  height: 45px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 #000;
+  background-color: violet;
+} 
+
+.full-page {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.Login-img{
+  width: 75%;
+  height: 700px;
+  object-fit: cover;
+}
+
+  

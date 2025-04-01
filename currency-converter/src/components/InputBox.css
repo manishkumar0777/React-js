@@ -1,0 +1,55 @@
+/* Input Box Container */
+.input-container {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Left section for amount */
+  .amount-section {
+    width: 50%;
+  }
+  
+  .label {
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 8px;
+    display: inline-block;
+  }
+  
+  .amount-input {
+    outline: none;
+    width: 100%;
+    background: transparent;
+    padding: 6px 0;
+    border: none;
+    font-size: 14px;
+  }
+  
+  /* Right section for currency selection */
+  .currency-section {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: right;
+  }
+  
+  .currency-label {
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 8px;
+    width: 100%;
+  }
+  
+  .currency-dropdown {
+    border-radius: 8px;
+    padding: 6px 8px;
+    background-color: #f3f4f6;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 14px;
+  }
+  
